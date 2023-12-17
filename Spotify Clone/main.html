@@ -14,57 +14,57 @@
              <li>About</li>
         </ul>
     </nav>
-
     <div class="container">
         <div class="songlist">
             <h1>Songs that feel like falling in love</h1>
             <div class="songItemContainer">
               <div class="songItem">
                 <img src="cover1.jpg" alt="1">
-                <span>Solitude</span>
-                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid  fa-play-circle"></i></span></span>
+                <span  class="songName">Solitude</span>
+                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
 
               </div>
               <div class="songItem">
                 <img src="cover2.jpg" alt="1">
-                <span>Terrified</span>
-                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid  fa-play-circle"></i></span></span>
+                <span class="songName">Terrified</span>
+                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
 
               </div>
               <div class="songItem">
                 <img src="cover3.jpg" alt="1">
-                <span>Crime-s l o w e d</span>
-                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid  fa-play-circle"></i></span></span>
+                <span class="songName">Crime-s l o w e d</span>
+                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
 
               </div>
               <div class="songItem">
                 <img src="cover4.jpg" alt="1">
-                <span>The Moon Song</span>
-                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid  fa-play-circle"></i></span></span>
+                <span class="songName">The Moon Song</span>
+                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
 
               </div>
               <div class="songItem">
                 <img src="cover5.jpg" alt="1">
-                <span>Lavender-Azooz</span>
-                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid  fa-play-circle"></i></span></span>
+                <span class="songName">Lavender-Azooz</span>
+                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
 
               </div>
               <div class="songItem">
                 <img src="cover6.jpg" alt="1">
-                <span>Out Like a light 2</span>
-                <span class="songlistplay"><span class="timestamp">04:31  <i class="fa-solid  fa-play-circle"></i></span></span>
+                <span class="songName">Out Like a light 2</span>
+                <span class="songlistplay"><span class="timestamp">04:31  <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
 
               </div><div class="songItem">
                 <img src="cover7.jpg" alt="1">
-                <span>Mariela!?</span>
-                <span class="songlistplay"><span class="timestamp">04:14 <i class="fa-solid  fa-play-circle"></i></span></span>
+                <span class="songName">Mariela!?</span>
+                <span class="songlistplay"><span class="timestamp">04:14 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
 
               </div><div class="songItem">
                 <img src="cover8.jpg" alt="1">
-                <span>Perfect</span>
-                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid  fa-play-circle"></i></span></span>
+                <span class="songName">Perfect</span>
+                <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
 
               </div>
+            </div>
             </div>
         </div>
         <div class="songbanner">
@@ -72,14 +72,14 @@
     </div>
 
     <div class="bottom">
-        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <input type="range" name="range" id="myProgressBar" min="0"  value ="0"max="100">
         <div class="icons">
             <i class="fa-solid fa-2x fa-backward"></i>            
-            <i class="fa-solid fa-2x fa-play-circle"></i>
+            <i class="fa-solid fa-2x fa-play-circle" id ="masterPlay"></i>
             <i class="fa-solid fa-2x fa-forward"></i>
         </div>
         <div class="songInfo">
-            <img src="playing.gif" width="42px" alt=""> Solitude
+            <img src="playing.gif" width="42px" alt="" id="gif"> Solitude
         </div>
     </div>
     <script src="https://kit.fontawesome.com/7f5802d8f9.js" crossorigin="anonymous"></script>

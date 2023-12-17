@@ -4,7 +4,6 @@
 body{
     background-color: wheat;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -40,6 +39,7 @@ nav ul li{
     font-size: 1.3rem;
 }
 
+
 .container{
     min-height: 75vh;
     background-color: black;
@@ -52,8 +52,6 @@ nav ul li{
     padding: 12px;
     background-image: url('bgimg2.jpg');
 }
-
-
 
 .bottom{
     position: sticky;
@@ -112,10 +110,11 @@ nav ul li{
 .songInfo{
     position: absolute;
     left: 10vw;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .songInfo img{
     opacity :0;
-    transition: opacity ease-in;
+    transition: opacity 0.5s ease-in;
  
 }
